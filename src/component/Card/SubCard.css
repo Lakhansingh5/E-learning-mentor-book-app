@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+.card-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-left: 50px;
+  font-family: "Poppins", sans-serif; 
+}
+
+.card-main {
+  color: grey;
+  background-color: #e0e0e0;
+  border-radius: 20px;
+  width: 330px;
+  margin: 30px 50px 30px 30px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.card-detail {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.image {
+  position: relative;
+  margin-top: 15px;
+  margin-left: 35px;
+  display: grid;
+  width: 200px;
+  height: 30vh;
+  border-radius: 100px;
+}
+
+.mentor-buttons-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-right: 15px;
+}
+
+.mentor-button {
+  background-color: #e0ffeb;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, 0.2) 0 -25px 18px -14px inset,
+    rgba(44, 187, 99, 0.15) 0 1px 2px, rgba(44, 187, 99, 0.15) 0 2px 4px,
+    rgba(44, 187, 99, 0.15) 0 4px 8px, rgba(44, 187, 99, 0.15) 0 8px 16px,
+    rgba(44, 187, 99, 0.15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.mentor-button:hover {
+  box-shadow: rgba(44, 187, 99, 0.35) 0 -25px 18px -14px inset,
+    rgba(44, 187, 99, 0.25) 0 1px 2px, rgba(44, 187, 99, 0.25) 0 2px 4px,
+    rgba(44, 187, 99, 0.25) 0 4px 8px, rgba(44, 187, 99, 0.25) 0 8px 16px,
+    rgba(44, 187, 99, 0.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+
+.mentor-button-red-sign {
+  background-color: #ffe0e0;
+  border-radius: 100px;
+  box-shadow: rgba(255, 99, 99, 0.2) 0 -25px 18px -14px inset,
+    rgba(255, 99, 99, 0.15) 0 1px 2px, rgba(255, 99, 99, 0.15) 0 2px 4px,
+    rgba(255, 99, 99, 0.15) 0 4px 8px, rgba(255, 99, 99, 0.15) 0 8px 16px,
+    rgba(255, 99, 99, 0.15) 0 16px 32px;
+  color: red; 
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.mentor-button:hover {
+  box-shadow: rgba(255, 99, 99, 0.35) 0 -25px 18px -14px inset,
+    rgba(255, 99, 99, 0.25) 0 1px 2px, rgba(255, 99, 99, 0.25) 0 2px 4px,
+    rgba(255, 99, 99, 0.25) 0 4px 8px, rgba(255, 99, 99, 0.25) 0 8px 16px,
+    rgba(255, 99, 99, 0.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 400px;
+  margin: auto;
+  margin-top: 150px;
+  padding: 20px;
+
+}
+
+.confirmation-message {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  background-color: whitesmoke;
+  border: 1px solid #ccc;
+  border-radius: 40px;
+  text-align: center;
+  color: #4C9141;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); 
+
+}
+
